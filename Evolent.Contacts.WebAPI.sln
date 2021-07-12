@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.Contacts.WebAPI", "Evolent.Contacts.WebAPI\Evolent.Contacts.WebAPI.csproj", "{2B5469DA-CBB4-422D-B8FD-D33C922E22EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.Contacts.Contracts", "Evolent.Contacts.Contracts\Evolent.Contacts.Contracts.csproj", "{D39F1978-4194-4A79-9BCE-D6C65FBF42E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.Contacts.LoggerService", "Evolent.Contacts.LoggerService\Evolent.Contacts.LoggerService.csproj", "{50631D0D-71B2-40DE-9196-F1EC822038EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.Contacts.Entities", "Evolent.Contacts.Entities\Evolent.Contacts.Entities.csproj", "{5A4DEDFF-5DBF-42A0-A3B4-F573740C6BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.Contacts.Repository", "Evolent.Contacts.Repository\Evolent.Contacts.Repository.csproj", "{E0F6F867-4EDF-43E4-89D3-EBF5E1099A1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B5469DA-CBB4-422D-B8FD-D33C922E22EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5469DA-CBB4-422D-B8FD-D33C922E22EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5469DA-CBB4-422D-B8FD-D33C922E22EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5469DA-CBB4-422D-B8FD-D33C922E22EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39F1978-4194-4A79-9BCE-D6C65FBF42E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39F1978-4194-4A79-9BCE-D6C65FBF42E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39F1978-4194-4A79-9BCE-D6C65FBF42E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39F1978-4194-4A79-9BCE-D6C65FBF42E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50631D0D-71B2-40DE-9196-F1EC822038EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50631D0D-71B2-40DE-9196-F1EC822038EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50631D0D-71B2-40DE-9196-F1EC822038EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50631D0D-71B2-40DE-9196-F1EC822038EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4DEDFF-5DBF-42A0-A3B4-F573740C6BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4DEDFF-5DBF-42A0-A3B4-F573740C6BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4DEDFF-5DBF-42A0-A3B4-F573740C6BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4DEDFF-5DBF-42A0-A3B4-F573740C6BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F6F867-4EDF-43E4-89D3-EBF5E1099A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F6F867-4EDF-43E4-89D3-EBF5E1099A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F6F867-4EDF-43E4-89D3-EBF5E1099A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F6F867-4EDF-43E4-89D3-EBF5E1099A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17DC7DE2-3C6A-4AA3-ADD4-D1B2C497AD3D}
+	EndGlobalSection
+EndGlobal
