@@ -42,6 +42,7 @@ namespace Evolent.Contacts.Repository
 		public void Update(T entity)
 		{
 			this.RepositoryContext.Set<T>().Update(entity);
+			RepositoryContext.SaveChanges();
 		}
 	}
 }

@@ -146,7 +146,7 @@ namespace Evolent.Contacts.WebAPI.Controllers
 		/// <param name="contact"></param>
 		/// <returns></returns>
 		[HttpPut("UpdateContact/{id}")]
-		public IActionResult UpdateContact(int id, [FromBody] ContactforCUDto contact)
+		public IActionResult UpdateContact(int id, [FromBody] UpdateContactDto contact)
 		{
 			try
 			{

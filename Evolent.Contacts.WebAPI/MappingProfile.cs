@@ -12,6 +12,9 @@ namespace Evolent.Contacts.WebAPI
 	{
 		public MappingProfile()
 		{
+			CreateMap<UpdateContactDto, Contact>()
+				.ForAllMembers(opt => opt.Condition((src, dest, srcMember) => srcMember != null));
+				
 			CreateMap<ContactforCUDto, Contact>();
 			CreateMap<Contact, GetContactDto>()
 				.ForMember(x => x.Status, opt => opt.MapFrom(o => o.Status == 1 ? "Active" : "Inactive"));
