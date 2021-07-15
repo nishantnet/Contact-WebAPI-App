@@ -1,0 +1,54 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Evolent.Contacts.UnitTest" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Evolent.Contacts.UnitTest" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="ContactControllerTest" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_CreateNewContact" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_CreateNewContact" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_DeleteContact" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_DeleteContact" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_GetContactById" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_GetContactById" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_GetContactList" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_GetContactList" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_UpdateContact" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Evolent.Contacts.UnitTest.ContactControllerTest.Test_UpdateContact" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
